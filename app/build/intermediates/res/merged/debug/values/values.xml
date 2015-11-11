@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/User/AndroidStudioProjects/DotaRemote/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">DotaRemote</string>
+    <string name="app_welcome">DOTA 2 Remote</string>
+    <string name="default_ip">192.168.1.26</string>
+    <string name="exit_dota">Are you sure you want to quit DOTA 2?</string>
+    <string name="menu_settings">Settings</string>
+    <!-- From: file:/C:/Users/User/AndroidStudioProjects/DotaRemote/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="ButtonType1">
+        <item name="android:background">@drawable/remotebutton</item>
+    </style>
+    <style name="TextConnected">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#009900</item>
+    </style>
+    <style name="TextDisconnected">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#990000</item>
+    </style>
+    <style name="TextTypeLight">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#F0F0F0</item>
+        
+    </style>
+    <style name="TextTypeRed">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#990000</item>
+        
+    </style>
+</resources>
